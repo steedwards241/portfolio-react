@@ -18,7 +18,7 @@ const Nav = () => {
             <Link style={ linkStyles } to="/standings"><p>Custom League Standings</p></Link>
             <Link style={ linkStyles } to="/custombutton"><p>Custom Button</p></Link>
             <Link style={ linkStyles } to="/clickgame"><p>Click Game</p></Link>
-            <p style={{cursor: "pointer"}} onClick={event => window.location.href="https://github.com/steedwards241/reactportfolio.git"}>GitHub</p>
+            <p style={{cursor: "pointer"}} onClick={event => window.location.href="https://github.com/steedwards241/portfolio-react"}>GitHub</p>
         </div>
     )
 }
