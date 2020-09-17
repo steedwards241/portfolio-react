@@ -1,0 +1,55 @@
+@import "../../Sass/Imports/Colours/colours.scss";
+@import "../../Sass/Imports/Mixins/mixins.scss";
+@import "../../Sass/Imports/Fonts/fonts.scss";
+
+@media (max-width: 1000px) {
+    .content-container {
+        @include display-flex-center;
+        width: 85%;
+        margin-top: 100px;
+    }
+
+    .app-content-container {
+        margin-left: 0;
+    }
+
+    
+    //header component
+
+    .header-container {
+        margin-top: 80px;
+    } 
+
+    .header-container h2 {
+        margin-left: 0px;
+    }
+
+
+    //nav component
+
+    .nav-container {
+        @include nav-bar-media
+    }
+
+    .nav-container p {
+        float: left;
+        padding: 0 2% 0 2%;
+        margin-top: 6px;
+        font-size: 10px;
+        transition: 1s 0s;
+    }
+}
+
+@media(max-width: 700px) {
+    .nav-container {
+        @include nav-bar-media
+    }
+
+    .nav-container p {
+        float: left;
+        padding: 0 1.5% 0 1.5%;
+        margin-top: 6px;
+        font-size: 8px;
+        transition: 1s 0s;
+    }
+}

@@ -1,0 +1,89 @@
+@import "../Imports/Colours/colours.scss";
+@import "../Imports/Mixins/mixins.scss";
+@import "../Imports/Fonts/fonts.scss";
+
+//app component
+
+.app-container {
+    font-family: $primary-font;
+}
+
+.app-content-container {
+    margin-left: 150px;
+}
+
+.content-container {
+    @include display-flex-center;
+    @include display-margin-center;
+    @include display-component-top;
+    width: 60%;
+}
+
+
+//header component
+
+.header-container {
+    @include display-flex-center;
+    @include display-margin-center;
+    width: 60%;
+}
+
+.header-container h2 {
+    margin-left: 150px;
+}
+
+
+//home component
+
+.home-container p {
+    margin-top: 100px;
+    margin-left: 15%;
+    font-size: 150px;
+}
+
+.home-container h5 {
+    margin-top: 70px;
+    width: 300px;
+}
+.home-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-title-container {
+    @include display-flex-center;
+}
+
+.home-logo-container {
+    @include display-flex-center;
+    @include display-margin-center;
+    width: 50%;
+    margin-top: 140px;
+}
+
+.home-logo-container img {
+    margin: 0px 10px;
+}
+
+
+//nav component
+
+.nav-container {
+    width: 150px;
+    height: 110vh;
+    background-color: $primary-colour;
+    color: $secondary-colour;
+    margin: -92px 0px 0px -8px;
+}
+
+.nav-container p {
+    @include display-flex-center;
+    height: 50px;
+    transition: 1s 0s;
+}
+
+.nav-container p:hover {
+    background-color: $hover-primary-colour;
+    transition: 1s 0s;
+    color: $primary-colour;
+}

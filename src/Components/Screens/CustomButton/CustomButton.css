@@ -1,0 +1,168 @@
+.custom-button-container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100vh;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .custom-button-container {
+    margin-top: 120px;
+  }
+}
+
+.custom-button-container .copyText-container {
+  border-style: solid;
+  padding: 15px;
+}
+
+.div {
+  height: 20px;
+  width: 20px;
+  border-style: solid;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.white {
+  background-color: white;
+}
+
+.verdana {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.georgia {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.impact {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.button-colours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.button-colours div {
+  cursor: pointer;
+}
+
+.button-shape {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.button-shape p {
+  padding: 0 40px;
+  cursor: pointer;
+}
+
+.button-border-colour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.button-border-colour div {
+  cursor: pointer;
+}
+
+.button-border-style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.button-border-style p {
+  padding: 0 40px;
+  cursor: pointer;
+}
+
+.button-text-colour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.button-text-colour div {
+  cursor: pointer;
+}
+
+.button-text-font {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.button-text-font p {
+  padding: 0 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=CustomButton.css.map */

@@ -1,0 +1,43 @@
+@import "../../../Sass/Imports/Colours/colours.scss";
+@import "../../../Sass/Imports/Fonts/fonts.scss";
+@import "../../../Sass/Imports/Mixins/mixins.scss";
+
+.workout-tracker-container {
+    width: 80%;
+    margin-top: -100vh;
+    @include display-margin-center;
+    text-align: center;
+}
+
+@media(max-width: 1000px) {
+    .workout-tracker-container {
+        margin-top: 150px;
+    }
+}
+
+.workout-container {
+    border-style: solid;
+    width: 200px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.workout-planner-component {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.workout-planner-upper {
+    @include display-flex-center;
+}
+
+.workout-planner-upper p {
+    margin: 20px 7% -30px 7%;
+}
+
+.workout-tracker-container input {
+    margin: 0 10px;
+}

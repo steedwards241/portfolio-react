@@ -1,0 +1,55 @@
+.progress-container {
+  width: 80%;
+  margin-top: -100vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .progress-container {
+    margin-top: 100px;
+  }
+}
+
+.another-circle {
+  stroke-dasharray: 227;
+  stroke-dashoffset: 227;
+  -webkit-transition: stroke-dashoffset 0.4s linear;
+  transition: stroke-dashoffset 0.4s linear;
+}
+
+.another-circle:hover {
+  stroke-dashoffset: 0;
+}
+
+.svg-container {
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.svg {
+  margin-left: -20px;
+}
+
+.svg:hover {
+  cursor: pointer;
+}
+
+.new-content-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: block;
+}
+
+.progress-container-sorry {
+  visibility: hidden;
+}
+
+.new-content-container:hover + .progress-container-sorry {
+  visibility: visible;
+}
+/*# sourceMappingURL=CV.css.map */

@@ -1,0 +1,55 @@
+@import "../../../Sass/Imports/Colours/colours.scss";
+@import "../../../Sass/Imports/Fonts/fonts.scss";
+@import "../../../Sass/Imports/Mixins/mixins.scss";
+
+.click-game-container {
+    @include display-margin-center;
+    width: 80%;
+    text-align: center;
+    margin-top: -100vh;
+    -webkit-user-select: none;
+}
+
+@media(max-width: 1000px){
+    .click-game-container {
+        margin-top: 150px;
+    }
+}
+
+.click-game-container div {
+    @include display-margin-center;
+    height: 150px;
+}
+
+.click-game-info {
+    width: 40%;
+}
+
+.click-game-info-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.click-game-info-header p {
+    width: 33.3%;
+}
+
+.click-game-info-state {
+    display: flex;
+    flex-direction: row;
+    margin-top: -100px;
+}
+
+.click-game-info-state p {
+    width: 33.3%;
+}
+
+.store-items {
+    cursor: pointer;
+    width: 150px;
+    @include display-margin-center;
+}
+
+#impact{ font-family: $impact-font }
+#georgia{ font-family: $georgia-font }
+#verdana{ font-family: $verdana-font }

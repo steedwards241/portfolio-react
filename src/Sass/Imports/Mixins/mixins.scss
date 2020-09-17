@@ -1,0 +1,23 @@
+@mixin display-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+@mixin display-margin-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin display-component-top {
+    margin-top: -100vh;
+}
+
+@mixin nav-bar-media {
+    width: 100%;
+    height: 56px;
+    background-color: $primary-colour;
+    color: $secondary-colour;
+    margin: -160px 0px 0px -8px;
+}

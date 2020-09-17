@@ -1,0 +1,55 @@
+.workout-tracker-container {
+  width: 80%;
+  margin-top: -100vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .workout-tracker-container {
+    margin-top: 150px;
+  }
+}
+
+.workout-container {
+  border-style: solid;
+  width: 200px;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+
+.workout-planner-component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.workout-planner-upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.workout-planner-upper p {
+  margin: 20px 7% -30px 7%;
+}
+
+.workout-tracker-container input {
+  margin: 0 10px;
+}
+/*# sourceMappingURL=WorkoutTracker.css.map */

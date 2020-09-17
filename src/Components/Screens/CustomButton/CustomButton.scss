@@ -1,0 +1,94 @@
+@import "../../../Sass/Imports/Colours/colours.scss";
+@import "../../../Sass/Imports/Fonts/fonts.scss";
+@import "../../../Sass/Imports/Mixins/mixins.scss";
+
+.custom-button-container {
+    width: 60%;
+    @include display-margin-center;
+    margin-top: -100vh;
+    text-align: center;
+}
+
+@media(max-width: 1000px) {
+    .custom-button-container {
+        margin-top: 120px;
+    }
+}
+
+.custom-button-container .copyText-container {
+    border-style: solid;
+    padding: 15px;
+}
+
+.div {
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+}
+
+.black { background-color: $custom-button-colour-1; }
+.red { background-color: $custom-button-colour-2; }
+.blue { background-color: $custom-button-colour-3; }
+.yellow { background-color: $custom-button-colour-4; }
+.white { background-color: $custom-button-colour-5; }
+
+.verdana { font-family: $verdana-font }
+.georgia { font-family: $georgia-font }
+.impact { font-family: $impact-font }
+
+.button-colours {
+    @include display-flex-center;
+    margin-top: 40px;
+}
+
+.button-colours div {
+    cursor: pointer;
+}
+
+.button-shape {
+    @include display-flex-center;
+    margin-top: 5px;
+}
+
+.button-shape p {
+    padding: 0 40px;
+    cursor: pointer;
+}
+
+.button-border-colour {
+    @include display-flex-center;
+    margin-top: 40px;
+}
+
+.button-border-colour div {
+    cursor: pointer;
+}
+
+.button-border-style {
+    @include display-flex-center;
+    margin-top: 5px;
+}
+
+.button-border-style p{
+    padding: 0 40px;
+    cursor: pointer;
+}
+
+.button-text-colour {
+    @include display-flex-center;
+    margin-top: 40px;
+}
+
+.button-text-colour div{
+    cursor: pointer;
+}
+
+.button-text-font {
+    @include display-flex-center;
+    margin-top: 5px;
+}
+
+.button-text-font p{
+    padding: 0 20px;
+    cursor: pointer;
+}

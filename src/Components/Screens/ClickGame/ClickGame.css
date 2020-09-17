@@ -1,0 +1,73 @@
+.click-game-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+  margin-top: -100vh;
+  -webkit-user-select: none;
+}
+
+@media (max-width: 1000px) {
+  .click-game-container {
+    margin-top: 150px;
+  }
+}
+
+.click-game-container div {
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+}
+
+.click-game-info {
+  width: 40%;
+}
+
+.click-game-info-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.click-game-info-header p {
+  width: 33.3%;
+}
+
+.click-game-info-state {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: -100px;
+}
+
+.click-game-info-state p {
+  width: 33.3%;
+}
+
+.store-items {
+  cursor: pointer;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#impact {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#georgia {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#verdana {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*# sourceMappingURL=ClickGame.css.map */

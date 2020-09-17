@@ -1,0 +1,131 @@
+.app-container {
+  font-family: "Roboto", sans-serif;
+}
+
+.app-content-container {
+  margin-left: 150px;
+}
+
+.content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100vh;
+  width: 60%;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.header-container h2 {
+  margin-left: 150px;
+}
+
+.home-container p {
+  margin-top: 100px;
+  margin-left: 15%;
+  font-size: 150px;
+}
+
+.home-container h5 {
+  margin-top: 70px;
+  width: 300px;
+}
+
+.home-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home-title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.home-logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 140px;
+}
+
+.home-logo-container img {
+  margin: 0px 10px;
+}
+
+.nav-container {
+  width: 150px;
+  height: 110vh;
+  background-color: #c92828;
+  color: white;
+  margin: -92px 0px 0px -8px;
+}
+
+.nav-container p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 50px;
+  -webkit-transition: 1s 0s;
+  transition: 1s 0s;
+}
+
+.nav-container p:hover {
+  background-color: #dddddd;
+  -webkit-transition: 1s 0s;
+  transition: 1s 0s;
+  color: #c92828;
+}
+/*# sourceMappingURL=App.css.map */

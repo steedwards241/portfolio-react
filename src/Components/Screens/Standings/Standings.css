@@ -1,0 +1,46 @@
+.standings-container {
+  width: 80%;
+  margin-top: -100vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-style: solid;
+}
+
+.table-container {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+input {
+  width: 15%;
+  margin: 10px 1%;
+}
+
+th, td {
+  width: 100px;
+}
+
+td {
+  padding: 20px 2px;
+}
+
+.table-header {
+  margin: 20px 0px 10px 0px;
+}
+
+#short {
+  width: 70px;
+}
+
+#long {
+  width: 150px;
+}
+
+@media (max-width: 1000px) {
+  .standings-container {
+    margin-top: 150px;
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=Standings.css.map */
